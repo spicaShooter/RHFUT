@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size: 13px;
+	font-family:"Microsoft YaHei";
+}
+
+.header{
+	width:1120px;
+	margin:0 auto;
+	padding:0;
+	top:0;
+	display:block;
+	color:#FFF;
+	height:60px;
+}
+
+.header .header_inner .nav{
+	float:left;
+}
+
+.header .header_inner .logo{
+	float:left;
+}
+
+.header .header_inner .nav{
+	display:block;
+	height:60px;
+	text-align: center;
+	line-height: 60px;
+	padding-left:20px;
+}
+
+.header .header_inner .nav a{
+	padding-left: 20px;
+	padding-right: 20px;
+	display:block;
+	float:left;
+}
+
+.header .header_inner .botton{
+	display:block;
+	padding-top:10px;
+}
+
+.header .header_inner .botton h1{
+	float:right;
+	padding-right:20px;
+}
+
+.main{
+	margin:0 auto;
+	width:1120px;
+	padding-bottom:200px;
+}
+
+.main .radio .title,.main .wall .title{
+	display:block;
+	height: 62px;
+    font-size: 24px;
+    line-height: 62px;
+    margin-right: 26px;
+    padding-top: 19px;
+    padding-bottom: 6px;
+}
+
+.main .radio .feature a, .main .wall .feature a{
+	padding:30px
+}
+
+.main .wall{
+	padding-bottom:20px;
+}
+
+.main .wall .title .tab a{
+	padding-left:10px;
+	font-size:18px;
+}
+
+.line{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+	border-top-color:#999;
+    border-top-style:solid;
+    border-top-width:1px;
+}
+	
+
+.footer{
+	margin:0 auto;
+	width:1120px;
+	float:left;
+}
+
+.footer .link,.footer .about,.footer .QRcode{
+	float:left;
+	font-size:10px;
+	display:block;
+}
+
+.footer .about,.footer .QRcode{
+	display:block;
+	padding-top:20px;
+	padding-left:300px;
+}
+	
+.footer .link p{
+	font-size:22px;
+}
